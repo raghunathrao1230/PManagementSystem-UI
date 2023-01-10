@@ -1,0 +1,67 @@
+::ng-deep.mat-form-field-appearance-standard .mat-form-field-flex {
+    padding-top: 0.1em !important;
+}
+
+::ng-deep.mat-form-field-wrapper {
+    padding-bottom: 0.1em !important;
+}
+
+::ng-deep tr.mat-header-row {
+    height: 30px !important;
+    vertical-align: middle !important;
+}
+
+::ng-deep {
+    .mat-form-field-underline:read-only{
+       // display: none !important;
+       position: relative;
+       margin-top: 10px;
+    }
+
+    .date-cell .mat-form-field-label-wrapper {
+        max-height: 30px !important;
+    }   
+
+}
+
+.text-black {
+    color: black !important;
+}
+
+::ng-deep .mat-form-field-underline {
+    min-width: fit-content !important;
+
+}
+
+.margin-10 {
+    margin-left: 10px;
+}
+
+.icon-text {
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 3px;
+    color: red;
+}
+
+.date-cell .mat-input-element {
+    width: 80px !important;
+}
+.loader {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 3px solid rgb(17, 87, 216);
+    border-radius: 50%;
+    border-top-color: #fff;
+    animation: spin 1s ease-in-out infinite;
+    -webkit-animation: spin 1s ease-in-out infinite;
+      
+  }
+  
+  @keyframes spin {
+    to { -webkit-transform: rotate(360deg); }
+  }
+  @-webkit-keyframes spin {
+    to { -webkit-transform: rotate(360deg); }
+  }
